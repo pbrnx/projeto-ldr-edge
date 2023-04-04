@@ -31,5 +31,5 @@ Os LEDs e o buzzer serão acionados de acordo com a luminosidade lida:
 Se a luminosidade for igual a 969, o LED vermelho e o buzzer serão acionados;
 Se a luminosidade for maior que 50, o LED amarelo e o buzzer serão acionados;
 Caso contrário, o LED verde será acionado e o buzzer será desligado.
-Este projeto pode ser adaptado para diferentes faixas de luminosidade e outros usos, como monitorar a iluminação em uma sala ou ajustar o brilho de uma tela de TV.
+Este projeto pode ser adaptado para diferentes faixas de luminosidade e outros usos, como monitorar a iluminação em uma sala ou ajustar o brilho de uma tela de um celular
 
