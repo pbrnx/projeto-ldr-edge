@@ -21,23 +21,26 @@ void loop() {
   Serial.print("Luminosidade: "); //report no monitor serial
   Serial.println(lightValue);
 
-  if (lightValue >= 400  ) { //969 é o equivalente a máxima luminosidade no tinkercad, na vida real varia e precisamos ajustar o valor conforme necessário. A leitura deve ser feita pelo 
-    digitalWrite(GREEN_LED_PIN, LOW);
+  if (lightValue >= 350  ) { //969 é o equivalente a máxima luminosidade no tinkercad, na vida real varia e precisamos ajustar o valor conforme necessário. A leitura deve ser feita pelo 
+    digitalWrite(GREEN_LED_PIN, HIGH);
     digitalWrite(YELLOW_LED_PIN, LOW);
-    digitalWrite(RED_LED_PIN, HIGH);
-    tone(BUZZER_PIN, 2000);
+    digitalWrite(RED_LED_PIN, LOW);
+  
   }
   else if (lightValue > ALERT_THRESHOLD) { //alert_threshold indica o valor do intervalo de luminosidade, nesse caso se for > que 50, a luz amarela se acende
     digitalWrite(GREEN_LED_PIN, LOW);
     digitalWrite(YELLOW_LED_PIN, HIGH);
     digitalWrite(RED_LED_PIN, LOW);
-    tone(BUZZER_PIN, 1000); 
+    
   } 
   else { 
-    digitalWrite(GREEN_LED_PIN, HIGH); //se qualquer coisa fora das condições acima ocorrer, o verde se acende, ou seja, o verde só acende se o valor ideal de luminosidade estiver definido.
+    digitalWrite(GREEN_LED_PIN, LOW); //se qualquer coisa fora das condições acima ocorrer, o verde se acende, ou seja, o verde só acende se o valor ideal de luminosidade estiver definido.
     digitalWrite(YELLOW_LED_PIN, LOW);
-    digitalWrite(RED_LED_PIN, LOW);
-    noTone(BUZZER_PIN);
+    digitalWrite(RED_LED_PIN, HIGH);
+    delay(3000);
+    digitalWrite(BUZZER_PIN, HIGH);
+    delay(3000);
+    digitalWrite(BUZZER_PIN, LOW);
   }
   
   delay(100); //quanto tempo entre cada leitura do monitor serial em ms
