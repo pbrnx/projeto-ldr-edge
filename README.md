@@ -33,4 +33,4 @@ Instruções de uso:
 - Caso contrário, o LED verde será acionado e o buzzer será desligado.
 - Este projeto pode ser adaptado para diferentes faixas de luminosidade e outros usos, como monitorar a iluminação em uma sala ou ajustar o brilho de uma tela de um celular
 
-Projeto no TinkerCad: https://www.tinkercad.com/things/0AicRcigr8p?sharecode=yazMtrcFmW-yE6EJa6KN19t-HWDiMz1aXbEnZCH1OxE%2Ftarget_blank
+Projeto no TinkerCad: https://www.tinkercad.com/things/0AicRcigr8p?sharecode=yazMtrcFmW-yE6EJa6KN19t-HWDiMz1aXbEnZCH1OxE
