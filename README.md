@@ -22,6 +22,9 @@ Instruções de montagem:
 - Conecte o LED vermelho ao pino digital 4 do Arduino, com um resistor 220 ohms em série;
 - Conecte o buzzer ao pino digital 8 do Arduino.
 
+![image](https://user-images.githubusercontent.com/128100284/230229840-f990581b-4a1a-4eff-9c35-c22ca07c1ebc.png)
+
+
 Instruções de uso:
 - Ligue o Arduino ao computador e abra o software Arduino IDE;
 - Carregue o código do projeto para o Arduino;
