@@ -38,5 +38,6 @@ Se a temperatura estiver abaixo de 10°C, a mensagem "Temp. Baixa" será exibida
 
 Se a umidade estiver abaixo de 50%, a mensagem "Umidade. Baixa" será exibida no display, juntamente com o valor da umidade. Se a umidade estiver acima de 70%, a mensagem "Umidade. Alta" será exibida no display, juntamente com o valor da umidade. Caso contrário, a mensagem "Umidade OK" será exibida.
 
-![image](https://user-images.githubusercontent.com/128100284/234438525-43e426ec-69ce-4d5b-ae1a-4a9c58602165.png)
+![image](https://user-images.githubusercontent.com/128100284/234438584-a4a43d9a-e7f4-4083-be9d-68ba5596ebaf.png)
+
 
