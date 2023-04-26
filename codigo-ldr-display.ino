@@ -46,6 +46,15 @@ void loop() {
     digitalWrite(BUZZER_PIN, HIGH);
     delay(3000);
     digitalWrite(BUZZER_PIN, LOW);
+     float tempC = dht.readTemperature(); // leitura da temperatura em Celsius
+  float hum = dht.readHumidity(); // leitura da umidade relativa do ar
+  Serial.print("Temperatura: ");
+  Serial.print(tempC);
+  Serial.print("°C, Umidade: ");
+  Serial.print(hum);
+  Serial.println("%");
+  delay(2000);
+    
   }
 
   RawValue = analogRead(TEMP_SENSOR_PIN);
@@ -62,6 +71,9 @@ void loop() {
   Serial.println(tempF, 1);
   Serial.print("Luminosidade: ");
   Serial.println(lightValue);
+  
+  
+  
 
   humiditysensorOutput = analogRead(A2);
   Serial.print("Humidity: ");
@@ -109,3 +121,21 @@ void loop() {
   
   
 }
+
+
+#include <DHT.h>
+
+#define DHTPIN 2     // pino do sensor conectado
+#define DHTTYPE DHT11   // modelo do sensor usado
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+}
+
+
+
+
+
