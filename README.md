@@ -1,8 +1,4 @@
 
-Projeto no TinkerCad: https://www.tinkercad.com/things/0AicRcigr8p?sharecode=yazMtrcFmW-yE6EJa6KN19t-HWDiMz1aXbEnZCH1OxE
-
-
-
 Projeto de Monitoramento de Ambiente
 Este é um projeto simples de monitoramento ambiental que utiliza um Arduino Uno, um sensor de luminosidade, um sensor de temperatura e um sensor de umidade para monitorar as condições do ambiente.
 
@@ -40,4 +36,6 @@ Se a umidade estiver abaixo de 50%, a mensagem "Umidade. Baixa" será exibida no
 
 ![image](https://user-images.githubusercontent.com/128100284/234438584-a4a43d9a-e7f4-4083-be9d-68ba5596ebaf.png)
 
+
+Projeto no TinkerCad: https://www.tinkercad.com/things/0AicRcigr8p?sharecode=yazMtrcFmW-yE6EJa6KN19t-HWDiMz1aXbEnZCH1OxE
 
