@@ -4,6 +4,7 @@ Projeto de Monitoramento de Ambiente
 Este é um projeto simples de monitoramento ambiental que utiliza um Arduino Uno, um sensor de luminosidade, um sensor de temperatura e um sensor de umidade para monitorar as condições do ambiente.
 
 Funcionamento
+
 O projeto funciona da seguinte forma:
 
 O sensor de luminosidade mede a luminosidade do ambiente e acende um LED verde se a luminosidade estiver alta o suficiente, um LED amarelo se a luminosidade estiver abaixo de um determinado limite, ou um LED vermelho se a luminosidade estiver muito alta.
@@ -12,6 +13,7 @@ O sensor de umidade mede a umidade do ambiente e a exibe no display LCD, juntame
 Além disso, o projeto conta com um buzzer que emite um sinal sonoro quando a luminosidade está abaixo do limite determinado.
 
 Arquivos
+
 O projeto é composto pelos seguintes arquivos:
 
 monitoramento_ambiental.ino: o arquivo principal que contém o código do projeto.
